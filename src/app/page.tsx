@@ -66,6 +66,27 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="w-full bg-gray-300 p-4 rounded-lg">
+        <h1>flex と inline-flex 確認</h1>
+        <h2 className="leading-10">flex</h2>
+        <div className="gap-4">
+          <div className="inline-flex flex-col">
+            <div className="bg-red-300">1</div>
+            <div className="bg-red-300">2</div>
+            <div className="bg-red-300">3</div>
+          </div>
+          <p>test</p>
+        </div>
+        <h2 className="leading-10">inline-flex</h2>
+        <div className="gap-4 bg-blue-400">
+          <div className="flex flex-col">
+            <div className="bg-red-300">1</div>
+            <div className="bg-red-300">2</div>
+            <div className="bg-red-300">3</div>
+          </div>
+          <p>test</p>
+        </div>
+      </div>
     </div>
   );
 }
